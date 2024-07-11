@@ -8,6 +8,10 @@ weather clear
 title @a clear
 function marker_point_objective:remove
 
+schedule clear bingley-esc:objectives/act1/objective_1_markers/1
+
+schedule clear bingley-esc:objectives/act1/objective_1_markers/2
+
 # DEV LINE
 clear @a[tag=!dev]
 
