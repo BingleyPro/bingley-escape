@@ -6,6 +6,7 @@ setworldspawn 5 71 -245
 spawnpoint @a 5 71 -245
 weather clear
 title @a clear
+function marker_point_objective:remove
 
 # DEV LINE
 clear @a[tag=!dev]

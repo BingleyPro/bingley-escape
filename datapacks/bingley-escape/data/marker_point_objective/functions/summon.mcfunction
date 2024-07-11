@@ -28,4 +28,3 @@ execute as @e[type=minecraft:block_display,tag=markerpointobjective1720671795362
 
 # Command 1 for parent side_4_2
 execute as @e[type=minecraft:block_display,tag=markerpointobjective1720671795362,sort=nearest,limit=1] at @s run summon block_display ~ ~ ~ {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:gold_block",Properties:{}},transformation:[0f,0f,-0.0001f,0.0001f,0f,0f,0f,0f,0.002f,0f,0f,-0.0625f,0f,0f,0f,1f],Tags:["side_4_21720671795362_8_0"]}],Tags:["side_4_21720671795362_8"]}
-
