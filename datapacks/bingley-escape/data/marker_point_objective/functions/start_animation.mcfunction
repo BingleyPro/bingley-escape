@@ -1,0 +1,10 @@
+# Marker Point Objective created via BDEngine
+
+function marker_point_objective:animate/animation_keyframe0_1
+function marker_point_objective:animate/animation_keyframe0_2
+function marker_point_objective:animate/animation_keyframe0_3
+function marker_point_objective:animate/animation_keyframe0_4
+function marker_point_objective:animate/animation_keyframe0_5
+function marker_point_objective:animate/animation_keyframe0_6
+function marker_point_objective:animate/animation_keyframe0_7
+function marker_point_objective:animate/animation_keyframe0_8

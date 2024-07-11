@@ -4,6 +4,8 @@ gamemode adventure @a
 tp @a 5 71 -245
 setworldspawn 5 71 -245
 spawnpoint @a 5 71 -245
+weather clear
+title @a clear
 
 # DEV LINE
 clear @a[tag=!dev]
@@ -20,3 +22,5 @@ schedule clear bingley-esc:dialogue/act1/begin_1
 schedule clear bingley-esc:dialogue/act1/begin_2
 schedule clear bingley-esc:dialogue/act1/begin_3
 schedule clear bingley-esc:dialogue/act1/begin_4
+
+schedule clear bingley-esc:objectives/act1/objective_1

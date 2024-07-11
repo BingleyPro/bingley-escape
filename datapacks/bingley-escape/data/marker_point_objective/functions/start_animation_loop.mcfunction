@@ -1,0 +1,11 @@
+# Marker Point Objective created via BDEngine
+
+execute as @e[type=minecraft:block_display,tag=markerpointobjective1720671795362,sort=nearest,limit=1] at @s run tag @s add animation_loop
+function marker_point_objective:animate/animation_keyframe0_1
+function marker_point_objective:animate/animation_keyframe0_2
+function marker_point_objective:animate/animation_keyframe0_3
+function marker_point_objective:animate/animation_keyframe0_4
+function marker_point_objective:animate/animation_keyframe0_5
+function marker_point_objective:animate/animation_keyframe0_6
+function marker_point_objective:animate/animation_keyframe0_7
+function marker_point_objective:animate/animation_keyframe0_8

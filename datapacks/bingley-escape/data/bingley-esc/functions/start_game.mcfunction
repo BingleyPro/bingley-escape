@@ -5,6 +5,8 @@ execute as @a[tag=!player] run tag @s add spectator
 # DEV LINE
 clear @a[tag=!dev]
 
+weather clear
+
 # Set Gamemodes
 execute as @a[limit=1] run gamemode adventure @s
 execute as @a[tag=!player] run gamemode spectator @s
@@ -41,6 +43,4 @@ setblock 4 55 -224 ochre_froglight[axis=z]
 setblock 6 55 -222 ochre_froglight[axis=z]
 setblock 4 55 -222 ochre_froglight[axis=z]
 
-# Wait 1 second
-function bingley-esc:act1/dialogue with storage bingley-esc:act1/dialogue_info
-schedule function bingley-esc:act1/dialogue
+schedule function bingley-esc:dialogue/act1/begin_1 1s
