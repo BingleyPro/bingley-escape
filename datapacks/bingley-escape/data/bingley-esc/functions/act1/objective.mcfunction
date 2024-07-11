@@ -1,0 +1,1 @@
+$execute as @a[tag=player] run title @s actionbar {"color":"gold","text":"$(objective)"}
