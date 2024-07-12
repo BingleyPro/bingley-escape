@@ -1019,5 +1019,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-07-12 17:10:25 +1000"
+    },
+    "done": true
+  },
   "DataVersion": 3839
 }
