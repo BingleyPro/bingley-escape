@@ -47,3 +47,21 @@ setblock -37 47 -49 minecraft:redstone_torch
 
 scoreboard objectives add chores dummy
 scoreboard players set * chores 0
+
+data modify storage bingley-esc:chores 1_1 set value "red"
+data modify storage bingley-esc:chores 1_2 set value "red"
+data modify storage bingley-esc:chores 1_3 set value "red"
+data modify storage bingley-esc:chores 1_4 set value "red"
+data modify storage bingley-esc:chores 1_5 set value "red"
+data modify storage bingley-esc:chores 2_1 set value "red"
+data modify storage bingley-esc:chores 2_2 set value "red"
+data modify storage bingley-esc:chores 2_3 set value "red"
+data modify storage bingley-esc:chores 2_4 set value "red"
+data modify storage bingley-esc:chores 3_1 set value "red"
+data modify storage bingley-esc:chores 3_2 set value "red"
+data modify storage bingley-esc:chores 3_3 set value "red"
+data modify storage bingley-esc:chores 4_1 set value "red"
+data modify storage bingley-esc:chores 4_2 set value "red"
+data modify storage bingley-esc:chores 4_3 set value "red"
+data modify storage bingley-esc:chores 5_1 set value "red"
+data modify storage bingley-esc:chores 5_2 set value "red"
