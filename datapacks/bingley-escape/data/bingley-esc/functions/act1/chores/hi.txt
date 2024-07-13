@@ -1,0 +1,98 @@
+item replace entity @a[tag=player] hotbar.0 with written_book[
+    max_stack_size=1,
+    item_name='{"bold":true,"italic":false,"text":"Chores Booklet"}',
+    lore=[
+        '{"text":"This booklet is permanently in this slot."}',
+        '{"text":"Don\'t place any other item in this slot..."}',
+        '{"text":"... or it will be deleted"}'
+    ],
+    unbreakable={show_in_tooltip:false},
+    written_book_content={
+        title:"Chores Booklet",
+        author:"Mum",
+        generation:0,
+        pages=[
+            '[
+                {"text":"--- Chores Booklet! ---","color":"green","bold":true},
+                {"text":"\\n\\nTurn the pages and read the instructions to complete each chore!\\n","color":"dark_red","bold":false},
+                {"text":"\\n\\nIf you select the title of a chore, it will guide you through the process!","color":"gold","bold":true}
+            ]',
+            '[
+                {"text":"Chore #1: Place new toilet paper into each bathroom","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.1.1"}},
+                {"text":"/3 rolls in downstairs bathroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.1.2"}},
+                {"text":"/1 roll in guest bathroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.1.3"}},
+                {"text":"/3 rolls in master bathroom","color":"red","bold":false}
+            ]',
+            '[
+                {"score":{"name":"@s","objective":"chores.1.4"}},
+                {"text":"/2 rolls in upstairs bathroom #1\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.1.5"}},
+                {"text":"/2 rolls in upstairs bathroom #2","color":"red","bold":false}
+            ]',
+            '[
+                {"text":"Chore #2: Gather the dirty clothes from the basket in each room and put them in the washing machine.","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.2.1"}},
+                {"text":"/2 items in guest bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.2.2"}},
+                {"text":"/6 items in master bedroom\\n\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.2.3"}},
+                {"text":"/5 items in ","color":"red","bold":false},
+                {"selector":"@a[tag=player,limit=1]","color":"red","hoverEvent":{"action":"show_text","value":[{"text":"","color":"gold"}]}},
+                {"text":"\'s bedroom","color":"red","bold":false}
+            ]',
+            '[
+                {"text":"Chore #3: Sweep the floors in each room.","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.3.1"}},
+                {"text":"/1 guest bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.3.2"}},
+                {"text":"/1 master bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.3.3"}},
+                {"text":"/1 living room\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.3.4"}},
+                {"text":"/1 kitchen","color":"red","bold":false}
+            ]',
+            '[
+                {"text":"Chore #4: Dust the furniture in each room.","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.4.1"}},
+                {"text":"/2 guest bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.4.2"}},
+                {"text":"/2 master bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.4.3"}},
+                {"text":"/3 living room\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.4.4"}},
+                {"text":"/2 dining room","color":"red","bold":false}
+            ]',
+            '[
+                {"text":"Chore #5: Water the plants in the house.","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.5.1"}},
+                {"text":"/2 living room\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.5.2"}},
+                {"text":"/1 kitchen\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.5.3"}},
+                {"text":"/1 guest bedroom\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.5.4"}},
+                {"text":"/1 master bedroom","color":"red","bold":false}
+            ]',
+            '[
+                {"text":"Chore #6: Feed the pets.","color":"gray","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Click to set as active chore]","color":"gold"}]}},
+                {"text":"\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.6.1"}},
+                {"text":"/2 dog food\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.6.2"}},
+                {"text":"/2 cat food\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.6.3"}},
+                {"text":"/1 fish food\\n\\n","color":"red","bold":false},
+                {"score":{"name":"@s","objective":"chores.6.4"}},
+                {"text":"/1 bird food","color":"red","bold":false}
+            ]'
+        ]
+    }
+] 1
