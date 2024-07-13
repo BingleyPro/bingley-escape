@@ -7,3 +7,5 @@ function marker_point_objective:remove
 #schedule function marker_point_objective:start_animation_loop 0.1s
 
 # RUN SOME CODE
+schedule clear bingley-esc:objectives/act1/objective_1_actionbar
+function bingley-esc:dialogue/act1/begin_5

@@ -9,8 +9,16 @@ title @a clear
 function marker_point_objective:remove
 
 schedule clear bingley-esc:objectives/act1/objective_1_markers/1
-
 schedule clear bingley-esc:objectives/act1/objective_1_markers/2
+schedule clear bingley-esc:objectives/act1/objective_1_markers/3
+schedule clear bingley-esc:objectives/act1/objective_1_markers/4
+schedule clear bingley-esc:objectives/act1/objective_1_markers/5
+schedule clear bingley-esc:objectives/act1/objective_1_markers/6
+schedule clear bingley-esc:objectives/act1/objective_1_markers/7
+schedule clear bingley-esc:objectives/act1/objective_1_markers/8
+
+schedule clear bingley-esc:objectives/act1/objective_2_markers/1
+schedule clear bingley-esc:objectives/act1/objective_2_markers/2
 
 # DEV LINE
 clear @a[tag=!dev]
@@ -28,4 +36,8 @@ schedule clear bingley-esc:dialogue/act1/begin_2
 schedule clear bingley-esc:dialogue/act1/begin_3
 schedule clear bingley-esc:dialogue/act1/begin_4
 
-schedule clear bingley-esc:objectives/act1/objective_1
+schedule clear bingley-esc:objectives/act1/objective_1_actionbar
+schedule clear bingley-esc:objectives/act1/objective_2/objective_2_actionbar
+
+setblock -37 47 -50 minecraft:redstone_torch
+setblock -37 47 -49 minecraft:redstone_torch
