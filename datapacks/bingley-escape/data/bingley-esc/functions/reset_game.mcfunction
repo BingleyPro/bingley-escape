@@ -38,6 +38,12 @@ schedule clear bingley-esc:dialogue/act1/begin_4
 
 schedule clear bingley-esc:objectives/act1/objective_1_actionbar
 schedule clear bingley-esc:objectives/act1/objective_2/objective_2_actionbar
+schedule clear bingley-esc:objectives/act1/objective_3/objective_3_actionbar
+schedule clear bingley-esc:objectives/act1/objective_4/objective_4_actionbar
+schedule clear bingley-esc:objectives/act1/objective_5/objective_5_actionbar
 
 setblock -37 47 -50 minecraft:redstone_torch
 setblock -37 47 -49 minecraft:redstone_torch
+
+scoreboard objectives add chores dummy
+scoreboard players set * chores 0
