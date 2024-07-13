@@ -21,5 +21,6 @@ data modify storage bingley-esc:chores 5_2 set value "red"
 function bingley-esc:act1/chores/check_chores_1
 function bingley-esc:act1/chores/check_chores_2
 function bingley-esc:act1/chores/check_chores_3
+function bingley-esc:act1/chores/check_chores_4
 
 function bingley-esc:act1/chores/give_chores_book with storage bingley-esc:chores
