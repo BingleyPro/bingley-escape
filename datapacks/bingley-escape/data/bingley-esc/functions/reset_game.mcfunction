@@ -154,3 +154,6 @@ data modify storage bingley-esc:chores 5_2 set value "red"
 setblock -40 57 -39 minecraft:spruce_trapdoor[half=top,facing=east,powered=false]
 
 function bingley-esc:act1/chores/after_chores
+
+setblock -42 53 -42 air
+setblock -42 54 -42 air
