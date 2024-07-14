@@ -46,7 +46,13 @@ setblock -37 47 -50 minecraft:redstone_torch
 setblock -37 47 -49 minecraft:redstone_torch
 
 scoreboard objectives add chores dummy
-scoreboard players set @a chores 0
+scoreboard players set * chores 0
+
+scoreboard players set 4.1countdown chores 20
+scoreboard players set 4.2countdown chores 20
+scoreboard players set 4.3countdown chores 20
+
+schedule clear bingley-esc:act1/chores/chores_loop
 
 data modify storage bingley-esc:chores 1_1 set value "red"
 data modify storage bingley-esc:chores 1_2 set value "red"

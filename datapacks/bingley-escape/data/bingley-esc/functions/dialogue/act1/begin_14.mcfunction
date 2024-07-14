@@ -21,6 +21,12 @@ data modify storage bingley-esc:chores 5_2 set value "red"
 function bingley-esc:objectives/act1/objective_5/objective_5_actionbar
 function bingley-esc:objectives/act1/objective_5/objective_5_check
 
+function bingley-esc:act1/chores/reset_chore_1
+function bingley-esc:act1/chores/reset_chore_2
+function bingley-esc:act1/chores/reset_chore_3
+function bingley-esc:act1/chores/reset_chore_4
+function bingley-esc:act1/chores/reset_chore_5
+
 # 4.1
 scoreboard players set 4.1countdown chores 20
 scoreboard players set 4.2countdown chores 20
