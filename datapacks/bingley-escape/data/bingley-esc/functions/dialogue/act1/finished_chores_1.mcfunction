@@ -6,4 +6,5 @@ clear @a[tag=player]
 
 function bingley-esc:act1/chores/after_chores
 
-say finished
+time set 13000
+# CHECKPOINT 2

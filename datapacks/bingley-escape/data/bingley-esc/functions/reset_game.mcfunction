@@ -45,6 +45,9 @@ schedule clear bingley-esc:objectives/act1/objective_5/objective_5_actionbar
 setblock -37 47 -50 minecraft:redstone_torch
 setblock -37 47 -49 minecraft:redstone_torch
 
+scoreboard objectives add checkpoint dummy
+scoreboard players set * checkpoint -1
+
 scoreboard objectives add chores dummy
 scoreboard players set * chores 0
 
@@ -146,3 +149,8 @@ data modify storage bingley-esc:chores 4_2 set value "red"
 data modify storage bingley-esc:chores 4_3 set value "red"
 data modify storage bingley-esc:chores 5_1 set value "red"
 data modify storage bingley-esc:chores 5_2 set value "red"
+
+# Attic trapdoors
+setblock -40 57 -39 minecraft:spruce_trapdoor[half=top,facing=east,powered=false]
+
+function bingley-esc:act1/chores/after_chores
