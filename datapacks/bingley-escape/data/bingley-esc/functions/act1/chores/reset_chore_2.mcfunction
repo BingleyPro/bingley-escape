@@ -13,4 +13,7 @@ item replace block -62 48 -55 container.13 with leather[max_stack_size=13,item_n
 item replace block -54 53 -43 container.13 with leather[max_stack_size=13,item_name='{"text":"Clothing"}'] 6
 item replace block -42 53 -46 container.13 with leather[max_stack_size=13,item_name='{"text":"Clothing"}'] 5
 
-clear @a[tag=player] paper[minecraft:item_name='"Clothing"',minecraft:max_stack_size=13]
+clear @a[tag=player] leather[minecraft:item_name='"Clothing"',minecraft:max_stack_size=13]
+
+#kill @e[type=item,nbt={Item:{id:"minecraft:leather",components:{"minecraft:item_name":'{"text":"Clothing"}',"minecraft:max_stack_size":13}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:leather"}}]

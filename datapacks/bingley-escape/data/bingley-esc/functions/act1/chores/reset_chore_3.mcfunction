@@ -53,3 +53,5 @@ setblock -39 58 -38 barrel[facing=north]
 item replace block -39 58 -38 container.13 with brush[max_stack_size=1,can_break={predicates:[{blocks:"gray_stained_glass_pane"}],show_in_tooltip:false},item_name='{"text":"Window Cleaner"}',unbreakable={show_in_tooltip:false}] 1
 
 clear @a[tag=player] brush[minecraft:item_name='"Window Cleaner"',minecraft:max_stack_size=1,minecraft:unbreakable={show_in_tooltip:false}]
+
+kill @e[type=item,nbt={Item:{id:"minecraft:brush"}}]

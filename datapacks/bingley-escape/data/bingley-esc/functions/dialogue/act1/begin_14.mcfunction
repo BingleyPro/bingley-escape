@@ -19,7 +19,7 @@ data modify storage bingley-esc:chores 5_1 set value "red"
 data modify storage bingley-esc:chores 5_2 set value "red"
 
 function bingley-esc:objectives/act1/objective_5/objective_5_actionbar
-function bingley-esc:objectives/act1/objective_5/objective_5_check
+#function bingley-esc:objectives/act1/objective_5/objective_5_check
 
 function bingley-esc:act1/chores/reset_chore_1
 function bingley-esc:act1/chores/reset_chore_2

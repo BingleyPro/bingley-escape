@@ -17,3 +17,6 @@ item replace block -42 53 -39 container.12 with paper[max_stack_size=5,item_name
 item replace block -42 53 -39 container.14 with paper[max_stack_size=5,item_name='{"text":"Toilet Paper Roll"}'] 5
 
 clear @a[tag=player] paper[minecraft:item_name='"Toilet Paper Roll"',minecraft:max_stack_size=5]
+
+#kill @e[type=item,nbt={Item:{id:"minecraft:paper",components:{"minecraft:item_name":'{"text":"Toilet Paper Roll"}',"minecraft:max_stack_size":5}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:paper"}}]

@@ -52,7 +52,82 @@ scoreboard players set 4.1countdown chores 20
 scoreboard players set 4.2countdown chores 20
 scoreboard players set 4.3countdown chores 20
 
+scoreboard players set greengreengreengreengreengreengreengreengreengreengreengreengreengreengreengreengreen chores 981234
+
 schedule clear bingley-esc:act1/chores/chores_loop
+
+kill @e[type=item,nbt={Item:{id:"minecraft:paper"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:leather"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:brush"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:tripwire_hook"}}]
+
+setblock -48 47 -59 chest[facing=south]
+setblock -56 47 -59 chest[facing=east]
+setblock -50 53 -39 chest[facing=south]
+setblock -55 55 -56 chest[facing=south]
+setblock -49 55 -43 chest[facing=north]
+
+setblock -42 53 -39 chest[facing=west]
+
+setblock -62 48 -55 barrel[facing=south]
+setblock -54 53 -43 barrel[facing=north]
+setblock -42 53 -46 barrel[facing=south]
+setblock -42 53 -37 barrel[facing=up]
+
+setblock -39 58 -38 barrel[facing=north]
+
+# Guest Bedroom Window 1
+setblock -63 50 -60 white_stained_glass_pane
+setblock -63 49 -60 white_stained_glass_pane
+
+# Guest Bedroom Window 2
+setblock -69 50 -60 white_stained_glass_pane
+setblock -69 49 -60 white_stained_glass_pane
+
+# Guest Bedroom Window 3
+setblock -71 50 -54 white_stained_glass_pane
+setblock -71 49 -54 white_stained_glass_pane
+setblock -71 50 -55 white_stained_glass_pane
+setblock -71 49 -55 white_stained_glass_pane
+setblock -71 50 -56 white_stained_glass_pane
+setblock -71 49 -56 white_stained_glass_pane
+setblock -71 50 -57 white_stained_glass_pane
+setblock -71 49 -57 white_stained_glass_pane
+
+# Master Bedroom Window 1
+setblock -69 56 -37 white_stained_glass_pane
+setblock -69 55 -37 white_stained_glass_pane
+setblock -69 54 -37 white_stained_glass_pane
+setblock -69 56 -38 white_stained_glass_pane
+setblock -69 55 -38 white_stained_glass_pane
+setblock -69 54 -38 white_stained_glass_pane
+setblock -69 56 -39 white_stained_glass_pane
+setblock -69 55 -39 white_stained_glass_pane
+setblock -69 54 -39 white_stained_glass_pane
+
+# Living Room Window 1
+setblock -36 51 -59 white_stained_glass_pane
+setblock -36 50 -59 white_stained_glass_pane
+
+# Living Room Window 2
+setblock -35 49 -55 white_stained_glass_pane
+setblock -35 50 -55 white_stained_glass_pane
+setblock -35 51 -55 white_stained_glass_pane
+setblock -35 49 -54 white_stained_glass_pane
+setblock -35 50 -54 white_stained_glass_pane
+setblock -35 51 -54 white_stained_glass_pane
+setblock -35 49 -53 white_stained_glass_pane
+setblock -35 50 -53 white_stained_glass_pane
+setblock -35 51 -53 white_stained_glass_pane
+
+# Living Room Window 3
+setblock -36 51 -52 white_stained_glass_pane
+setblock -36 50 -52 white_stained_glass_pane
+setblock -36 49 -52 white_stained_glass_pane
+
+setblock -40 58 -40 minecraft:barrel[facing=south]
+
+setblock -38 53 -56 barrel[facing=up]
 
 data modify storage bingley-esc:chores 1_1 set value "red"
 data modify storage bingley-esc:chores 1_2 set value "red"
