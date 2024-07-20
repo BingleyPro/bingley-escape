@@ -18,7 +18,6 @@ execute as @a[tag=player] at @s if block -56 47 -59 minecraft:chest{Items:[{"id"
 
 execute if score 1.2 chores matches 1 run data modify storage bingley-esc:chores 1_2 set value "green"
 
-
 # 1.3
 execute as @a[tag=player] at @s if block -50 53 -39 minecraft:chest{Items:[]} run scoreboard players set 1.3 chores 0
 execute as @a[tag=player] at @s if block -50 53 -39 minecraft:chest{Items:[{"id":"minecraft:paper",count:1,components:{"minecraft:item_name":'"Toilet Paper Roll"',"minecraft:max_stack_size":5}}]} run scoreboard players set 1.3 chores 1
@@ -28,7 +27,6 @@ execute as @a[tag=player] at @s if block -50 53 -39 minecraft:chest{Items:[{"id"
 execute as @a[tag=player] at @s if block -50 53 -39 minecraft:chest{Items:[{"id":"minecraft:paper",count:5,components:{"minecraft:item_name":'"Toilet Paper Roll"',"minecraft:max_stack_size":5}}]} run scoreboard players set 1.3 chores 5
 
 execute if score 1.3 chores matches 3 run data modify storage bingley-esc:chores 1_3 set value "green"
-
 
 # 1.4
 execute as @a[tag=player] at @s if block -55 55 -56 minecraft:chest{Items:[]} run scoreboard players set 1.4 chores 0

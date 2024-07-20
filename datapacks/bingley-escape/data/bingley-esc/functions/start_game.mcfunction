@@ -16,7 +16,7 @@ effect give @a[tag=player] minecraft:blindness 2 1 true
 time set 12000
 
 # CHECKPOINT 0
-function bingley-esc:checkpoints/checkpoint0
+function bingley-esc:checkpoints/reset_to_checkpoint0
 
 tp @a[tag=player] 7 51 -228 facing 5 51 -222
 
